@@ -305,3 +305,19 @@ p { margin: 0 0 1em; }
 .photo img { width: 100%; border-radius: var(--radius); box-shadow: var(--shadow); }
 .photo--wide { margin-top: 48px; }
 .photo--wide img { aspect-ratio: 16 / 7; object-fit: cover; object-position: center 60%; }
+
+.hero--home { --hero-img: url("../img/hero-home.jpg"); background-position: center, center 62%; }
+.hero--home .wrap { grid-template-columns: 1fr; padding-top: clamp(96px, 16vw, 200px); padding-bottom: clamp(88px, 14vw, 180px); }
+.hero--new { --hero-img: url("../img/hero-new.jpg"); background-position: center, center 72%; }
+.hero--workouts { --hero-img: url("../img/hero-workouts.jpg"); background-position: center, center 72%; }
+.hero--neighbors { --hero-img: url("../img/hero-neighbors.jpg"); background-position: center, center 40%; }
+.gallery--3 { grid-template-columns: repeat(3, 1fr); margin-top: 0; }
+.gallery--3 img { aspect-ratio: 4 / 3; object-position: center; }
+@media (max-width: 860px) { .gallery--3 { grid-template-columns: 1fr; } }
+.card-img { display: block; width: calc(100% + 52px); max-width: none; margin: -26px -26px 22px; aspect-ratio: 4 / 3; object-fit: cover; border-radius: var(--radius) var(--radius) 0 0; }
+.hero--photo .wrap > div, .hero--page.hero--photo .wrap { text-shadow: 0 1px 12px rgba(0, 0, 0, .35); }
+.hero--home .wrap > div { max-width: 640px; }
+.hero--photo, .hero--home { background-image: linear-gradient(90deg, rgba(10, 26, 51, .95) 0%, rgba(10, 26, 51, .82) 42%, rgba(10, 26, 51, .25) 75%, rgba(10, 26, 51, .1) 100%), var(--hero-img); }
+@media (max-width: 860px) {
+  .hero--photo, .hero--home { background-image: linear-gradient(rgba(10, 26, 51, .82), rgba(10, 26, 51, .88)), var(--hero-img); }
+}
