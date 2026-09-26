@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Workout Schedule & Map | F3 South Cary</title>
+  <meta name="description" content="Every F3 South Cary workout: days, times, locations, and directions. Free outdoor workouts for men in Cary, NC.">
+  <meta property="og:title" content="F3 South Cary">
+  <meta property="og:description" content="Free, peer-led, outdoor workouts for men in South Cary, NC. Just show up.">
+  <meta property="og:image" content="assets/img/logo.webp">
+  <meta name="theme-color" content="#0f1115">
+  <link rel="icon" type="image/webp" href="assets/img/logo.webp">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Oswald:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html"><img src="assets/img/logo.webp" alt="" width="42" height="42"><span>F3 South Cary</span></a>
+    <button class="nav-toggle" aria-label="Menu" aria-expanded="false" aria-controls="site-nav"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    <nav class="nav" id="site-nav">
+      <a href="new.html">New? Start Here</a>
+      <a href="workouts.html" aria-current="page">Workouts</a>
+      <a href="about.html">About F3</a>
+      <a href="contact.html">Contact</a>
+      <a class="btn btn--primary" href="workouts.html">Find a Workout</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero hero--page">
+    <div class="wrap">
+      <span class="eyebrow">Weekly schedule</span>
+      <h1>Find a workout</h1>
+      <p>Every workout below is free and open to all men. Pick one near you and show up 5 minutes early. <a href="new.html" style="color:#fff">First time? Read this.</a></p>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:40px">
+    <div class="wrap">
+      <div class="toolbar" role="group" aria-label="Filter workouts">
+        <div class="toolbar-group" id="filter-day"><span class="toolbar-label">Day</span></div>
+        <div class="toolbar-group" id="filter-type"><span class="toolbar-label">Type</span></div>
+        <div class="toolbar-group" id="filter-view"><span class="toolbar-label">View</span></div>
+      </div>
+      <p class="map-note" id="result-count" aria-live="polite"></p>
+      <div id="schedule"><p class="empty">Loading schedule…</p></div>
+      <p class="map-note">Schedule syncs weekly from <a href="https://map.f3nation.com" target="_blank" rel="noopener">F3 Nation</a>. Holidays and convergences can change things; if in doubt, <a href="contact.html">ask us</a>.</p>
+    </div>
+  </section>
+
+  <section class="section section--soft" id="live" hidden>
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">Live from F3 Nation</span>
+        <h2>The next 7 days</h2>
+        <p class="lede">Who's leading, and any closures.</p>
+      </div>
+      <div id="live-body"><p class="empty">Loading…</p></div>
+    </div>
+  </section>
+
+  <section class="section" id="map">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">Map</span>
+        <h2>Workout map</h2>
+        <p class="lede">The official F3 Nation map. Tap a pin for details. Traveling? Zoom out to find F3 anywhere.</p>
+      </div>
+      <div class="map-embed"><iframe id="f3-map" title="F3 Nation workout map" loading="lazy" allow="geolocation"></iframe></div>
+      <p class="map-note"><a href="https://map.f3nation.com/?lat=35.7295&amp;lng=-78.78&amp;zoom=12" target="_blank" rel="noopener">Open the full-screen map →</a></p>
+    </div>
+  </section>
+</main>
+
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="index.html"><img src="assets/img/logo.webp" alt="" width="42" height="42"><span>F3 South Cary</span></a>
+        <p>Free, peer-led workouts for men in Cary, NC. Part of <a href="https://f3nation.com" target="_blank" rel="noopener">F3 Nation</a>.</p>
+      </div>
+      <div>
+        <h4>Get started</h4>
+        <ul>
+          <li><a href="new.html">New? Start Here</a></li>
+          <li><a href="workouts.html">Workout Schedule</a></li>
+          <li><a href="workouts.html#map">Map</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Learn</h4>
+        <ul>
+          <li><a href="about.html">About F3</a></li>
+          <li><a href="new.html#lingo">F3 Lingo</a></li>
+          <li><a href="https://f3nation.com/exicon" target="_blank" rel="noopener">Exicon (exercises)</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Connect</h4>
+        <ul>
+          <li><a href="contact.html">Contact us</a></li>
+          <li><a data-email href="#"></a></li>
+          <li><a href="https://pax-vault.f3nation.com" target="_blank" rel="noopener">PAX Vault (stats)</a></li>
+          <li><a href="https://f3gear.com" target="_blank" rel="noopener">F3 Gear</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year">2026</span> F3 South Cary</span>
+      <span>Participate at your own risk. Consult a physician before beginning any exercise program.</span>
+    </div>
+  </div>
+</footer>
+<script src="assets/js/config.js"></script>
+<script src="assets/js/site.js"></script>
+</body>
+</html>

@@ -1,0 +1,272 @@
+{
+  "source": "https://regions.f3nation.com/south-cary",
+  "region": "F3 South Cary",
+  "workouts": [
+    {
+      "id": "45515",
+      "name": "88MPH",
+      "day": "monday",
+      "start": "0530",
+      "end": "0615",
+      "types": [
+        "Bootcamp"
+      ],
+      "notes": "Traditional Bootcamp with 2.5 - 3 mi average run.",
+      "address": "525 New Waverly Place, Cary, NC, 27518",
+      "lat": 35.738206,
+      "lng": -78.776728
+    },
+    {
+      "id": "36396",
+      "name": "Jack It Up",
+      "day": "monday",
+      "start": "0530",
+      "end": "0615",
+      "types": [
+        "Bootcamp"
+      ],
+      "notes": "",
+      "address": "Jack Smith Park, 9725 Penny Rd, Raleigh, NC, 27606",
+      "lat": 35.711209,
+      "lng": -78.766285
+    },
+    {
+      "id": "33096",
+      "name": "Kryptonite",
+      "day": "monday",
+      "start": "0530",
+      "end": "0615",
+      "types": [
+        "Bootcamp"
+      ],
+      "notes": "High Tempo Bootcamp",
+      "address": "Koka Booth VIP Parking Lot, Cary, NC, 27518",
+      "lat": 35.7298,
+      "lng": -78.795
+    },
+    {
+      "id": "33102",
+      "name": "Flirtin' With Disaster",
+      "day": "tuesday",
+      "start": "0530",
+      "end": "0615",
+      "types": [
+        "Bootcamp"
+      ],
+      "notes": "",
+      "address": "111 Thurston Dr, Cary, NC, 27518",
+      "lat": 35.7464,
+      "lng": -78.763
+    },
+    {
+      "id": "36395",
+      "name": "Just Dough It",
+      "day": "tuesday",
+      "start": "0530",
+      "end": "0615",
+      "types": [
+        "Run"
+      ],
+      "notes": "Fellowship 5 mile Run",
+      "address": "2050 Kildare Farm Road, Cary, NC, 27518",
+      "lat": 35.738147,
+      "lng": -78.781235
+    },
+    {
+      "id": "46381",
+      "name": "Just Ruck It",
+      "day": "tuesday",
+      "start": "0530",
+      "end": "0615",
+      "types": [
+        "Ruck"
+      ],
+      "notes": "",
+      "address": "2050 Kildare Farm Road, Cary, NC, 27518",
+      "lat": 35.738147,
+      "lng": -78.781235
+    },
+    {
+      "id": "41759",
+      "name": "Hulkamania",
+      "day": "wednesday",
+      "start": "0530",
+      "end": "0615",
+      "types": [
+        "Kettlebell"
+      ],
+      "notes": "Kettlebells",
+      "address": "301 W Lochmere Dr, Cary, NC, 27518",
+      "lat": 35.7284,
+      "lng": -78.7826
+    },
+    {
+      "id": "33108",
+      "name": "Point Break",
+      "day": "wednesday",
+      "start": "0530",
+      "end": "0615",
+      "types": [
+        "Bootcamp"
+      ],
+      "notes": "",
+      "address": "499-419 Colonades Way, Cary, NC, 27518",
+      "lat": 35.7395,
+      "lng": -78.7766
+    },
+    {
+      "id": "33099",
+      "name": "Back in Black",
+      "day": "thursday",
+      "start": "0515",
+      "end": "0600",
+      "types": [
+        "Bootcamp"
+      ],
+      "notes": "High Tempo Bootcamp or Run Only",
+      "address": "Koka Booth VIP Parking Lot, Cary, NC, 27518",
+      "lat": 35.7298,
+      "lng": -78.795
+    },
+    {
+      "id": "52749",
+      "name": "MOAB",
+      "day": "thursday",
+      "start": "0515",
+      "end": "0630",
+      "types": [
+        "Bootcamp"
+      ],
+      "notes": "",
+      "address": "103 Edinburgh S Dr, Cary, NC, 27511",
+      "lat": 35.737785,
+      "lng": -78.797996
+    },
+    {
+      "id": "43174",
+      "name": "Stonecutters",
+      "day": "thursday",
+      "start": "0515",
+      "end": "0600",
+      "types": [
+        "Bootcamp"
+      ],
+      "notes": "This workout is a limited-run style boot camp. The workout targets PAX who want a traditional boot camp experience but cannot run extended distances.",
+      "address": "301 W Lochmere Dr, Cary, NC, 27518",
+      "lat": 35.72872,
+      "lng": -78.782541
+    },
+    {
+      "id": "40511",
+      "name": "Thunderstruck",
+      "day": "thursday",
+      "start": "0530",
+      "end": "0615",
+      "types": [
+        "Bootcamp"
+      ],
+      "notes": "",
+      "address": "3430 Ten-Ten Rd, Cary, NC, 27511",
+      "lat": 35.7022,
+      "lng": -78.7936
+    },
+    {
+      "id": "54172",
+      "name": "Five O'Clock Somewhere",
+      "day": "friday",
+      "start": "0500",
+      "end": "0540",
+      "types": [
+        "Run"
+      ],
+      "notes": "",
+      "address": "301 W Lochmere Dr, Cary, NC, 27518",
+      "lat": 35.7284,
+      "lng": -78.7826
+    },
+    {
+      "id": "35894",
+      "name": "Shepherd's Watch",
+      "day": "friday",
+      "start": "0530",
+      "end": "0615",
+      "types": [
+        "Bootcamp"
+      ],
+      "notes": "Traditional bootcamp with moderate run (typically between 2.0 and 2.5 miles)",
+      "address": "6051 Tryon Rd, Cary, NC, 27518",
+      "lat": 35.7447,
+      "lng": -78.745
+    },
+    {
+      "id": "33095",
+      "name": "Slippery When Wet",
+      "day": "friday",
+      "start": "0545",
+      "end": "0630",
+      "types": [
+        "Bootcamp"
+      ],
+      "notes": "",
+      "address": "301 W Lochmere Dr, Cary, NC, 27518",
+      "lat": 35.72872,
+      "lng": -78.782541
+    },
+    {
+      "id": "47385",
+      "name": "SWWingers",
+      "day": "friday",
+      "start": "0545",
+      "end": "0630",
+      "types": [
+        "Kettlebell"
+      ],
+      "notes": "Kettlebells",
+      "address": "301 W Lochmere Dr, Cary, NC, 27518",
+      "lat": 35.7283,
+      "lng": -78.7837
+    },
+    {
+      "id": "52787",
+      "name": "The Escalator",
+      "day": "friday",
+      "start": "0645",
+      "end": "0715",
+      "types": [
+        "3rdF"
+      ],
+      "notes": "",
+      "address": "301 W Lochmere Dr, Cary, NC, 27518",
+      "lat": 35.7283,
+      "lng": -78.7837
+    },
+    {
+      "id": "36195",
+      "name": "Loch-n-Load",
+      "day": "saturday",
+      "start": "0630",
+      "end": "0715",
+      "types": [
+        "Bootcamp"
+      ],
+      "notes": "",
+      "address": "502 Lochmere Dr, Cary, NC, 27518",
+      "lat": 35.727195,
+      "lng": -78.760439
+    },
+    {
+      "id": "52708",
+      "name": "The Accelerator",
+      "day": "saturday",
+      "start": "0630",
+      "end": "0715",
+      "types": [
+        "Run"
+      ],
+      "notes": "Approx 4 mile run with a focused 3rdF topic",
+      "address": "",
+      "lat": 35.727093,
+      "lng": -78.759701
+    }
+  ]
+}

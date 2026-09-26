@@ -1,0 +1,19 @@
+{
+  "_comment": "Friendly place names shown on the site. Keys match the start of a workout's address (case-insensitive). Edit freely; workouts.json is regenerated from F3 Nation and should not be hand-edited.",
+  "byAddress": {
+    "525 New Waverly Place": "Waverly Place",
+    "499-419 Colonades Way": "Waverly Place",
+    "Jack Smith Park": "Jack Smith Park",
+    "Koka Booth": "Koka Booth Amphitheatre",
+    "111 Thurston Dr": "Marla Dorrel Park",
+    "2050 Kildare Farm Road": "Crescent Commons",
+    "301 W Lochmere Dr": "Ritter Park",
+    "3430 Ten-Ten Rd": "Stonebridge Village",
+    "6051 Tryon Rd": "The Shepherd's Church",
+    "502 Lochmere Dr": "Recreation Club of Lochmere",
+    "103 Edinburgh S Dr": "Edinburgh South Dr"
+  },
+  "byName": {
+    "The Accelerator": { "place": "Recreation Club of Lochmere", "address": "502 Lochmere Dr, Cary, NC, 27518" }
+  }
+}
