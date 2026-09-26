@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Workout Schedule & Map | F3 South Cary</title>
-  <meta name="description" content="Every F3 South Cary workout: days, times, locations, and directions. Free outdoor workouts for men in Cary, NC.">
+  <title>Neighboring Regions | F3 South Cary</title>
+  <meta name="description" content="F3 regions near South Cary: Carpex, Peak City, South Wake, Green Level, Raleigh, and Churham.">
   <meta property="og:title" content="F3 South Cary">
   <meta property="og:description" content="Free, peer-led, outdoor workouts for men in South Cary, NC. Just show up.">
   <meta property="og:image" content="assets/img/logo.webp">
@@ -23,10 +23,10 @@
     <button class="nav-toggle" aria-label="Menu" aria-expanded="false" aria-controls="site-nav"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
     <nav class="nav" id="site-nav">
       <a href="new.html">New? Start Here</a>
-      <a href="workouts.html" aria-current="page">Workouts</a>
+      <a href="workouts.html">Workouts</a>
       <a href="about.html">About F3</a>
       <a href="service.html">Service</a>
-      <a href="neighbors.html">Neighbors</a>
+      <a href="neighbors.html" aria-current="page">Neighbors</a>
       <a href="contact.html">Contact</a>
       <a class="btn btn--primary" href="workouts.html">Find a Workout</a>
     </nav>
@@ -36,48 +36,45 @@
 <main id="main">
   <section class="hero hero--page">
     <div class="wrap">
-      <span class="eyebrow">Weekly schedule</span>
-      <h1>Find a workout</h1>
-      <p>Every workout below is free and open to all men. Pick one near you and show up 5 minutes early. <a href="new.html" style="color:#fff">First time? Read this.</a></p>
+      <span class="eyebrow">Downrange</span>
+      <h1>Neighboring regions</h1>
+      <p>Cary and Apex are thick with F3. Post downrange anytime. Leave no man behind still applies across US-1.</p>
     </div>
   </section>
 
-  <section class="section" style="padding-top:40px">
+  <section class="section">
     <div class="wrap">
-      <div class="toolbar" role="group" aria-label="Filter workouts">
-        <div class="toolbar-group" id="filter-day"><span class="toolbar-label">Day</span></div>
-        <div class="toolbar-group" id="filter-type"><span class="toolbar-label">Type</span></div>
-        <div class="toolbar-group" id="filter-view"><span class="toolbar-label">View</span></div>
+      <div class="grid grid--3">
+        <a class="card region-card" href="https://www.f3carpex.com/" target="_blank" rel="noopener"><span class="eyebrow">Cary &amp; Apex</span><h3>F3 Carpex →</h3><p>Region site with a full schedule.</p></a>
+        <a class="card region-card" href="https://f3peakcity.com/" target="_blank" rel="noopener"><span class="eyebrow">Apex, Friendship, New Hill</span><h3>F3 Peak City →</h3><p>Region site with a full schedule.</p></a>
+        <a class="card region-card" href="https://f3southwake.com/" target="_blank" rel="noopener"><span class="eyebrow">Holly Springs, Fuquay, Garner</span><h3>F3 South Wake →</h3><p>Region site with a full schedule.</p></a>
+        <a class="card region-card" href="https://f3greenlevel.com/" target="_blank" rel="noopener"><span class="eyebrow">West Cary / Green Level</span><h3>F3 Green Level →</h3><p>Region site with a full schedule.</p></a>
+        <a class="card region-card" href="https://f3raleigh.com/" target="_blank" rel="noopener"><span class="eyebrow">Raleigh</span><h3>F3 Raleigh →</h3><p>Region site with a full schedule.</p></a>
+        <a class="card region-card" href="https://f3churham.com/" target="_blank" rel="noopener"><span class="eyebrow">Chapel Hill &amp; Durham</span><h3>F3 Churham →</h3><p>Region site with a full schedule.</p></a>
       </div>
-      <p class="map-note" id="result-count" aria-live="polite"></p>
-      <div id="schedule"><p class="empty">Loading schedule…</p></div>
-      <p class="map-note">Schedule syncs weekly from <a href="https://map.f3nation.com" target="_blank" rel="noopener">F3 Nation</a>. Holidays and convergences can change things; if in doubt, <a href="contact.html">ask us</a>.</p>
     </div>
   </section>
 
-  <section class="section section--soft" id="live" hidden>
-    <div class="wrap">
-      <div class="section-head">
-        <span class="eyebrow">Live from F3 Nation</span>
-        <h2>The next 7 days</h2>
-        <p class="lede">Who's leading, and any closures.</p>
+  <section class="section section--soft">
+    <div class="wrap split">
+      <div>
+        <span class="eyebrow">Visiting South Cary?</span>
+        <h2>You're in the right place</h2>
+        <p class="lede">Coming over from Carpex, Peak City, or anywhere else? Our full schedule is here. No need to ask. Just show up and introduce yourself.</p>
+        <div class="btn-row">
+          <a class="btn btn--primary" href="workouts.html">South Cary schedule</a>
+        </div>
       </div>
-      <div id="live-body"><p class="empty">Loading…</p></div>
-    </div>
-  </section>
-
-  <section class="section" id="map">
-    <div class="wrap">
-      <div class="section-head">
-        <span class="eyebrow">Map</span>
-        <h2>Workout map</h2>
-        <p class="lede">The official F3 Nation map. Tap a pin for details. Traveling? Zoom out to find F3 anywhere.</p>
+      <div class="card">
+        <span class="eyebrow">Traveling farther?</span>
+        <h3>F3 is everywhere</h3>
+        <p>The F3 Nation map shows every workout in the country. Find one wherever you land.</p>
+        <a href="https://map.f3nation.com/?lat=35.721&amp;lng=-78.781&amp;zoom=11" target="_blank" rel="noopener">Open the F3 Nation map →</a>
       </div>
-      <div class="map-embed"><iframe id="f3-map" title="F3 Nation workout map" loading="lazy" allow="geolocation"></iframe></div>
-      <p class="map-note"><a href="https://map.f3nation.com/?lat=35.7295&amp;lng=-78.78&amp;zoom=12" target="_blank" rel="noopener">Open the full-screen map →</a></p>
     </div>
   </section>
 </main>
+
 
 
 <footer class="site-footer">
