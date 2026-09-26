@@ -290,3 +290,18 @@ p { margin: 0 0 1em; }
 .region-card:hover { border-color: var(--accent); transform: translateY(-2px); }
 .region-card h3 { color: var(--accent-dark); }
 .card .checklist:last-child { margin-bottom: 0; }
+
+/* Photos */
+.hero--photo { background: linear-gradient(90deg, rgba(10, 26, 51, .92) 0%, rgba(10, 26, 51, .6) 45%, rgba(10, 26, 51, .1) 100%), var(--hero-img) center 50% / cover no-repeat; }
+.hero--service { --hero-img: url("../img/service-hero.jpg"); }
+.hero--photo::after { display: none; }
+.hero--photo .wrap { padding-top: clamp(72px, 12vw, 140px); padding-bottom: clamp(64px, 10vw, 120px); }
+.gallery { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-top: 40px; }
+@media (max-width: 860px) { .gallery { grid-template-columns: repeat(2, 1fr); } }
+.gallery figure, .photo { margin: 0; }
+.gallery img { width: 100%; aspect-ratio: 1 / 1; object-fit: cover; object-position: center 30%; border-radius: var(--radius); box-shadow: var(--shadow); }
+.gallery figcaption, .photo figcaption { font-size: .88rem; color: var(--muted); margin-top: 8px; }
+.photo { margin-top: 24px; }
+.photo img { width: 100%; border-radius: var(--radius); box-shadow: var(--shadow); }
+.photo--wide { margin-top: 48px; }
+.photo--wide img { aspect-ratio: 16 / 7; object-fit: cover; object-position: center 60%; }
