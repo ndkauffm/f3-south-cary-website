@@ -41,3 +41,7 @@ The token is visible in the page source. F3 Nation documents it as read-only.
 ```sh
 python3 -m http.server 8000   # then open http://localhost:8000
 ```
+
+## Caching
+
+GitHub Pages lets browsers cache files for 10 minutes. When you change `site.css`, `site.js`, or `config.js`, bump the `?v=` number on their links in all six HTML files. Otherwise visitors may keep seeing the old version for a while.
