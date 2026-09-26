@@ -315,9 +315,9 @@ p { margin: 0 0 1em; }
 .gallery--3 img { aspect-ratio: 4 / 3; object-position: center; }
 @media (max-width: 860px) { .gallery--3 { grid-template-columns: 1fr; } }
 .card-img { display: block; width: calc(100% + 52px); max-width: none; margin: -26px -26px 22px; aspect-ratio: 4 / 3; object-fit: cover; border-radius: var(--radius) var(--radius) 0 0; }
-.hero--photo .wrap > div, .hero--page.hero--photo .wrap { text-shadow: 0 1px 12px rgba(0, 0, 0, .35); }
+.hero--photo .wrap > div, .hero--page.hero--photo .wrap { text-shadow: 0 1px 3px rgba(0, 0, 0, .55), 0 2px 18px rgba(0, 0, 0, .5); }
 .hero--home .wrap > div { max-width: 640px; }
-.hero--photo, .hero--home { background-image: linear-gradient(90deg, rgba(10, 26, 51, .95) 0%, rgba(10, 26, 51, .82) 42%, rgba(10, 26, 51, .25) 75%, rgba(10, 26, 51, .1) 100%), var(--hero-img); }
+.hero--photo, .hero--home { background-image: linear-gradient(90deg, rgba(10, 26, 51, .82) 0%, rgba(10, 26, 51, .55) 40%, rgba(10, 26, 51, .08) 70%, rgba(10, 26, 51, 0) 100%), var(--hero-img); }
 @media (max-width: 860px) {
-  .hero--photo, .hero--home { background-image: linear-gradient(rgba(10, 26, 51, .82), rgba(10, 26, 51, .88)), var(--hero-img); }
+  .hero--photo, .hero--home { background-image: linear-gradient(rgba(10, 26, 51, .55), rgba(10, 26, 51, .7)), var(--hero-img); }
 }
